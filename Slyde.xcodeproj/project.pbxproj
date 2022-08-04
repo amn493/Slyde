@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		451A1DD8248C8F58001A1A55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A1DD7248C8F58001A1A55 /* AppDelegate.swift */; };
+		451A1DDA248C8F58001A1A55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A1DD9248C8F58001A1A55 /* SceneDelegate.swift */; };
+		451A1DDC248C8F58001A1A55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A1DDB248C8F58001A1A55 /* ViewController.swift */; };
+		451A1DDF248C8F58001A1A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451A1DDD248C8F58001A1A55 /* Main.storyboard */; };
+		451A1DE1248C8F59001A1A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451A1DE0248C8F59001A1A55 /* Assets.xcassets */; };
+		451A1DE4248C8F59001A1A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451A1DE2248C8F59001A1A55 /* LaunchScreen.storyboard */; };
+		451A1DEF248C8F59001A1A55 /* SlydeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A1DEE248C8F59001A1A55 /* SlydeTests.swift */; };
+		451A1DFA248C8F59001A1A55 /* SlydeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A1DF9248C8F59001A1A55 /* SlydeUITests.swift */; };
+		451A1E0A248CA456001A1A55 /* FindUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A1E09248CA456001A1A55 /* FindUsersViewController.swift */; };
+		451A1E0C248CA8FD001A1A55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 451A1E0B248CA8FD001A1A55 /* GoogleService-Info.plist */; };
+		451A1E0E248CC5FA001A1A55 /* MPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A1E0D248CC5FA001A1A55 /* MPC.swift */; };
+		451A1E12248D6431001A1A55 /* SelectPlatformsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A1E11248D6431001A1A55 /* SelectPlatformsViewController.swift */; };
+		8297B34B3AA589D65245C526 /* Pods_Slyde_SlydeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA72362BAE844C5C5335BE /* Pods_Slyde_SlydeUITests.framework */; };
+		D2C83EE35F243FD2F105FC8A /* Pods_SlydeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE8F09057230A4918677AB3 /* Pods_SlydeTests.framework */; };
+		FA15B9CB1517E17C07270772 /* Pods_Slyde.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5BC9889E01BB12F3896F16 /* Pods_Slyde.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		451A1DEB248C8F59001A1A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 451A1DCC248C8F58001A1A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 451A1DD3248C8F58001A1A55;
+			remoteInfo = Slyde;
+		};
+		451A1DF6248C8F59001A1A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 451A1DCC248C8F58001A1A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 451A1DD3248C8F58001A1A55;
+			remoteInfo = Slyde;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09CE93BC31820C6519FC98B8 /* Pods-SlydeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlydeTests.debug.xcconfig"; path = "Target Support Files/Pods-SlydeTests/Pods-SlydeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		122697D50783B335CCB9F4FE /* Pods-Slyde-SlydeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slyde-SlydeUITests.release.xcconfig"; path = "Target Support Files/Pods-Slyde-SlydeUITests/Pods-Slyde-SlydeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		451A1DD4248C8F58001A1A55 /* Slyde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slyde.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		451A1DD7248C8F58001A1A55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		451A1DD9248C8F58001A1A55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		451A1DDB248C8F58001A1A55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		451A1DDE248C8F58001A1A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		451A1DE0248C8F59001A1A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		451A1DE3248C8F59001A1A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		451A1DE5248C8F59001A1A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451A1DEA248C8F59001A1A55 /* SlydeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlydeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		451A1DEE248C8F59001A1A55 /* SlydeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlydeTests.swift; sourceTree = "<group>"; };
+		451A1DF0248C8F59001A1A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451A1DF5248C8F59001A1A55 /* SlydeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlydeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		451A1DF9248C8F59001A1A55 /* SlydeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlydeUITests.swift; sourceTree = "<group>"; };
+		451A1DFB248C8F59001A1A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451A1E09248CA456001A1A55 /* FindUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindUsersViewController.swift; sourceTree = "<group>"; };
+		451A1E0B248CA8FD001A1A55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		451A1E0D248CC5FA001A1A55 /* MPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPC.swift; sourceTree = "<group>"; };
+		451A1E11248D6431001A1A55 /* SelectPlatformsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPlatformsViewController.swift; sourceTree = "<group>"; };
+		7A5BC9889E01BB12F3896F16 /* Pods_Slyde.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slyde.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A421A82DE4B64ADFF3A016E /* Pods-Slyde.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slyde.debug.xcconfig"; path = "Target Support Files/Pods-Slyde/Pods-Slyde.debug.xcconfig"; sourceTree = "<group>"; };
+		A8094671C96E1219FB5DA25B /* Pods-Slyde-SlydeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slyde-SlydeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Slyde-SlydeUITests/Pods-Slyde-SlydeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B232A614DA51E77D035BA108 /* Pods-SlydeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlydeTests.release.xcconfig"; path = "Target Support Files/Pods-SlydeTests/Pods-SlydeTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFEA72362BAE844C5C5335BE /* Pods_Slyde_SlydeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slyde_SlydeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C245E221C2FD71192783E950 /* Pods-Slyde.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slyde.release.xcconfig"; path = "Target Support Files/Pods-Slyde/Pods-Slyde.release.xcconfig"; sourceTree = "<group>"; };
+		EEE8F09057230A4918677AB3 /* Pods_SlydeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlydeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		451A1DD1248C8F58001A1A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA15B9CB1517E17C07270772 /* Pods_Slyde.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451A1DE7248C8F59001A1A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C83EE35F243FD2F105FC8A /* Pods_SlydeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451A1DF2248C8F59001A1A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8297B34B3AA589D65245C526 /* Pods_Slyde_SlydeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2914B2F959C264AD274D1125 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A5BC9889E01BB12F3896F16 /* Pods_Slyde.framework */,
+				BFEA72362BAE844C5C5335BE /* Pods_Slyde_SlydeUITests.framework */,
+				EEE8F09057230A4918677AB3 /* Pods_SlydeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		451A1DCB248C8F58001A1A55 = {
+			isa = PBXGroup;
+			children = (
+				451A1DD6248C8F58001A1A55 /* Slyde */,
+				451A1DED248C8F59001A1A55 /* SlydeTests */,
+				451A1DF8248C8F59001A1A55 /* SlydeUITests */,
+				451A1DD5248C8F58001A1A55 /* Products */,
+				5E695444E015285230B0E247 /* Pods */,
+				2914B2F959C264AD274D1125 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		451A1DD5248C8F58001A1A55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				451A1DD4248C8F58001A1A55 /* Slyde.app */,
+				451A1DEA248C8F59001A1A55 /* SlydeTests.xctest */,
+				451A1DF5248C8F59001A1A55 /* SlydeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		451A1DD6248C8F58001A1A55 /* Slyde */ = {
+			isa = PBXGroup;
+			children = (
+				451A1DD7248C8F58001A1A55 /* AppDelegate.swift */,
+				451A1DD9248C8F58001A1A55 /* SceneDelegate.swift */,
+				451A1DDB248C8F58001A1A55 /* ViewController.swift */,
+				451A1E09248CA456001A1A55 /* FindUsersViewController.swift */,
+				451A1E0D248CC5FA001A1A55 /* MPC.swift */,
+				451A1E11248D6431001A1A55 /* SelectPlatformsViewController.swift */,
+				451A1DDD248C8F58001A1A55 /* Main.storyboard */,
+				451A1DE0248C8F59001A1A55 /* Assets.xcassets */,
+				451A1DE2248C8F59001A1A55 /* LaunchScreen.storyboard */,
+				451A1DE5248C8F59001A1A55 /* Info.plist */,
+				451A1E0B248CA8FD001A1A55 /* GoogleService-Info.plist */,
+			);
+			path = Slyde;
+			sourceTree = "<group>";
+		};
+		451A1DED248C8F59001A1A55 /* SlydeTests */ = {
+			isa = PBXGroup;
+			children = (
+				451A1DEE248C8F59001A1A55 /* SlydeTests.swift */,
+				451A1DF0248C8F59001A1A55 /* Info.plist */,
+			);
+			path = SlydeTests;
+			sourceTree = "<group>";
+		};
+		451A1DF8248C8F59001A1A55 /* SlydeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				451A1DF9248C8F59001A1A55 /* SlydeUITests.swift */,
+				451A1DFB248C8F59001A1A55 /* Info.plist */,
+			);
+			path = SlydeUITests;
+			sourceTree = "<group>";
+		};
+		5E695444E015285230B0E247 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A421A82DE4B64ADFF3A016E /* Pods-Slyde.debug.xcconfig */,
+				C245E221C2FD71192783E950 /* Pods-Slyde.release.xcconfig */,
+				A8094671C96E1219FB5DA25B /* Pods-Slyde-SlydeUITests.debug.xcconfig */,
+				122697D50783B335CCB9F4FE /* Pods-Slyde-SlydeUITests.release.xcconfig */,
+				09CE93BC31820C6519FC98B8 /* Pods-SlydeTests.debug.xcconfig */,
+				B232A614DA51E77D035BA108 /* Pods-SlydeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		451A1DD3248C8F58001A1A55 /* Slyde */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451A1DFE248C8F59001A1A55 /* Build configuration list for PBXNativeTarget "Slyde" */;
+			buildPhases = (
+				EDB04F198EB900A64BEDD099 /* [CP] Check Pods Manifest.lock */,
+				451A1DD0248C8F58001A1A55 /* Sources */,
+				451A1DD1248C8F58001A1A55 /* Frameworks */,
+				451A1DD2248C8F58001A1A55 /* Resources */,
+				E5A36AF6CD063176241C484A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slyde;
+			productName = Slyde;
+			productReference = 451A1DD4248C8F58001A1A55 /* Slyde.app */;
+			productType = "com.apple.product-type.application";
+		};
+		451A1DE9248C8F59001A1A55 /* SlydeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451A1E01248C8F59001A1A55 /* Build configuration list for PBXNativeTarget "SlydeTests" */;
+			buildPhases = (
+				0EBDDF15C90E24FBBF2110A6 /* [CP] Check Pods Manifest.lock */,
+				451A1DE6248C8F59001A1A55 /* Sources */,
+				451A1DE7248C8F59001A1A55 /* Frameworks */,
+				451A1DE8248C8F59001A1A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				451A1DEC248C8F59001A1A55 /* PBXTargetDependency */,
+			);
+			name = SlydeTests;
+			productName = SlydeTests;
+			productReference = 451A1DEA248C8F59001A1A55 /* SlydeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		451A1DF4248C8F59001A1A55 /* SlydeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451A1E04248C8F59001A1A55 /* Build configuration list for PBXNativeTarget "SlydeUITests" */;
+			buildPhases = (
+				FF0E4D3787944B0174B94576 /* [CP] Check Pods Manifest.lock */,
+				451A1DF1248C8F59001A1A55 /* Sources */,
+				451A1DF2248C8F59001A1A55 /* Frameworks */,
+				451A1DF3248C8F59001A1A55 /* Resources */,
+				4B225EAF40287B7001A5C02B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				451A1DF7248C8F59001A1A55 /* PBXTargetDependency */,
+			);
+			name = SlydeUITests;
+			productName = SlydeUITests;
+			productReference = 451A1DF5248C8F59001A1A55 /* SlydeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		451A1DCC248C8F58001A1A55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Slyde;
+				TargetAttributes = {
+					451A1DD3248C8F58001A1A55 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					451A1DE9248C8F59001A1A55 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 451A1DD3248C8F58001A1A55;
+					};
+					451A1DF4248C8F59001A1A55 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 451A1DD3248C8F58001A1A55;
+					};
+				};
+			};
+			buildConfigurationList = 451A1DCF248C8F58001A1A55 /* Build configuration list for PBXProject "Slyde" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 451A1DCB248C8F58001A1A55;
+			productRefGroup = 451A1DD5248C8F58001A1A55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				451A1DD3248C8F58001A1A55 /* Slyde */,
+				451A1DE9248C8F59001A1A55 /* SlydeTests */,
+				451A1DF4248C8F59001A1A55 /* SlydeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		451A1DD2248C8F58001A1A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451A1DE4248C8F59001A1A55 /* LaunchScreen.storyboard in Resources */,
+				451A1E0C248CA8FD001A1A55 /* GoogleService-Info.plist in Resources */,
+				451A1DE1248C8F59001A1A55 /* Assets.xcassets in Resources */,
+				451A1DDF248C8F58001A1A55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451A1DE8248C8F59001A1A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451A1DF3248C8F59001A1A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EBDDF15C90E24FBBF2110A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SlydeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B225EAF40287B7001A5C02B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Slyde-SlydeUITests/Pods-Slyde-SlydeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Slyde-SlydeUITests/Pods-Slyde-SlydeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Slyde-SlydeUITests/Pods-Slyde-SlydeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5A36AF6CD063176241C484A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Slyde/Pods-Slyde-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Slyde/Pods-Slyde-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Slyde/Pods-Slyde-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB04F198EB900A64BEDD099 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Slyde-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF0E4D3787944B0174B94576 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Slyde-SlydeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		451A1DD0248C8F58001A1A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451A1E0E248CC5FA001A1A55 /* MPC.swift in Sources */,
+				451A1DDC248C8F58001A1A55 /* ViewController.swift in Sources */,
+				451A1DD8248C8F58001A1A55 /* AppDelegate.swift in Sources */,
+				451A1E12248D6431001A1A55 /* SelectPlatformsViewController.swift in Sources */,
+				451A1E0A248CA456001A1A55 /* FindUsersViewController.swift in Sources */,
+				451A1DDA248C8F58001A1A55 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451A1DE6248C8F59001A1A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451A1DEF248C8F59001A1A55 /* SlydeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451A1DF1248C8F59001A1A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451A1DFA248C8F59001A1A55 /* SlydeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		451A1DEC248C8F59001A1A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 451A1DD3248C8F58001A1A55 /* Slyde */;
+			targetProxy = 451A1DEB248C8F59001A1A55 /* PBXContainerItemProxy */;
+		};
+		451A1DF7248C8F59001A1A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 451A1DD3248C8F58001A1A55 /* Slyde */;
+			targetProxy = 451A1DF6248C8F59001A1A55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		451A1DDD248C8F58001A1A55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				451A1DDE248C8F58001A1A55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		451A1DE2248C8F59001A1A55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				451A1DE3248C8F59001A1A55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		451A1DFC248C8F59001A1A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		451A1DFD248C8F59001A1A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		451A1DFF248C8F59001A1A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A421A82DE4B64ADFF3A016E /* Pods-Slyde.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 454DMKWF59;
+				INFOPLIST_FILE = Slyde/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ashley.Slyde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		451A1E00248C8F59001A1A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C245E221C2FD71192783E950 /* Pods-Slyde.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 454DMKWF59;
+				INFOPLIST_FILE = Slyde/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ashley.Slyde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		451A1E02248C8F59001A1A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09CE93BC31820C6519FC98B8 /* Pods-SlydeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 454DMKWF59;
+				INFOPLIST_FILE = SlydeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Slyde.SlydeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slyde.app/Slyde";
+			};
+			name = Debug;
+		};
+		451A1E03248C8F59001A1A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B232A614DA51E77D035BA108 /* Pods-SlydeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 454DMKWF59;
+				INFOPLIST_FILE = SlydeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Slyde.SlydeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slyde.app/Slyde";
+			};
+			name = Release;
+		};
+		451A1E05248C8F59001A1A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8094671C96E1219FB5DA25B /* Pods-Slyde-SlydeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 454DMKWF59;
+				INFOPLIST_FILE = SlydeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Slyde.SlydeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Slyde;
+			};
+			name = Debug;
+		};
+		451A1E06248C8F59001A1A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122697D50783B335CCB9F4FE /* Pods-Slyde-SlydeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 454DMKWF59;
+				INFOPLIST_FILE = SlydeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Slyde.SlydeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Slyde;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		451A1DCF248C8F58001A1A55 /* Build configuration list for PBXProject "Slyde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451A1DFC248C8F59001A1A55 /* Debug */,
+				451A1DFD248C8F59001A1A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451A1DFE248C8F59001A1A55 /* Build configuration list for PBXNativeTarget "Slyde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451A1DFF248C8F59001A1A55 /* Debug */,
+				451A1E00248C8F59001A1A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451A1E01248C8F59001A1A55 /* Build configuration list for PBXNativeTarget "SlydeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451A1E02248C8F59001A1A55 /* Debug */,
+				451A1E03248C8F59001A1A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451A1E04248C8F59001A1A55 /* Build configuration list for PBXNativeTarget "SlydeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451A1E05248C8F59001A1A55 /* Debug */,
+				451A1E06248C8F59001A1A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 451A1DCC248C8F58001A1A55 /* Project object */;
+}
